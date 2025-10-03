@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Library View</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <h2> Student Library</h2>
+    <button class="button-s" onclick="libarian()">Libarian Login</button>
+  </div>
+
+  <div class="container">
+    <h3>Available Books</h3>
+    <input type="text" id="studentSearch" placeholder="Search by title or author">
+
+    <table id="studentBookTable">
+      <thead>
+        <tr>
+          <th>Title</th><th>Author</th><th>Year</th><th>Status</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

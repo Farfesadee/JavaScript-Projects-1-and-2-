@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=10">
+    <title>RestaurantOS Menu</title>
+    <link rel="stylesheet" href="menu2.css">
+    <script src="menu.js"></script>
+  
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"> Fresh Bite</div>
+            <div>
+                <a href="registration.html" class="staff-button">Staff</a>
+                <a href="cart.html" class="cart-button">Cart</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="search-section">
+            <input type="search" placeholder=" Search menu items">
+            
+        </div>
+        <div class="category-tabs">
+            <button class="tab active">All Items</button>
+            <button class="tab" id="drink-button">Drinks</button>
+            <button class="tab" id="food-button">Food</button>
+            <button class="tab">Desserts</button>
+        </div>
+        <section class="menu-items-grid" id="menu-items-g">
+                <article class="menu-item-card" data-category="food">
+                <img src="images/Jollof Rice.jpeg" alt="Jollof Rice">
+                <h3>Jollof Rice</h3>
+                <p>Hot Nigerian Jollof Rice Made By real yoruba women</p>
+                <div class="price-add"><span>&#8358; 450</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="food">
+                <img src="images/FRied Rice.jpeg" alt="Fried Rice">
+                <h3>Fried Rice</h3>
+                <p>Fried rice with lot of extras</p>
+                <div class="price-add"><span>&#8358; 1299</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="food">
+                <img src="images/White Rice.jpeg" alt="White Rice">
+                <h3>White Rice</h3>
+                <p>Plain white rice, soft and sweet</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="food">
+                <img src="images/Best Air Fryer Chicken Leg.jpeg" alt="Turkey">
+                <h3>Turkey</h3>
+                <p>Premium roasted turkey</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="food">
+                <img src="images/Chicken Drumsticks Air Fryer Recipes Made Easy in 5 Steps.jpeg" alt="Chicken">
+                <h3>Chicken</h3>
+                <p>Delicious fried chicken</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="food">
+                <img src="images/Fish.jpeg" alt="Fish">
+                <h3>Fish</h3>
+                <p>Grilled or fried fish</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="food">
+                <img src="images/efoandshaki.jpeg" alt="Efo Riro">
+                <h3>Efo Riro</h3>
+                <p>Delicious Nigerian spinach stew</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="food">
+                <img src="images/OHA SOUP.jpeg" alt="Oha Soup">
+                <h3>Oha Soup</h3>
+                <p>Traditional Nigerian soup</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="food">
+                <img src="images/Efo riro.jpeg" alt="Okro Soup">
+                <h3>Okro Soup</h3>
+                <p>Okra-based Nigerian soup</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="food">
+                <img src="images\Amala.jpeg" alt="Amala">
+                <h3>Amala</h3>
+                <p>Classic Nigerian swallow</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="food">
+                <img src="images/Fufu.jpeg" alt="Fufu">
+                <h3>Fufu</h3>
+                <p>Staple swallow dish</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="food">
+                <img src="images/Eba.jpeg" alt="Eba">
+                <h3>Eba</h3>
+                <p>Made from garri, served with soup</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <!-- ================= DRINKS ================= -->
+                <article class="menu-item-card" data-category="drink">
+                <img src="images/Water.jpeg" alt="Water">
+                <h3>Water</h3>
+                <p>Refreshing bottled water</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="drink">
+                <img src="images/Chivita x Hollandia = Joy.jpeg" alt="Juice">
+                <h3>Juice</h3>
+                <p>Fresh fruit juice</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="drink">
+                <img src="images\softdrinks.jpeg" alt="Soft Drinks">
+                <h3>Soft Drinks</h3>
+                <p>Refreshing soda beverages</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="drink">
+                <img src="images/Nigerian Chapman.jpeg" alt="Chapman">
+                <h3>Chapman</h3>
+                <p>Nigerian cocktail drink</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="drink">
+                <img src="images/013fcfea-1d63-432c-98ec-8281c4705b75.jpeg" alt="Magarita">
+                <h3>Magarita</h3>
+                <p>Classic cocktail</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="drink">
+                <img src="images/Black cofee.jpeg" alt="Black Coffee">
+                <h3>Black Coffee</h3>
+                <p>Strong brewed coffee</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="drink">
+                <img src="images/Morning coffee.jpeg" alt="Coffee">
+                <h3>Coffee</h3>
+                <p>Fresh brewed coffee</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="drink">
+                <img src="images/Tea.jpeg" alt="Tea">
+                <h3>Tea</h3>
+                <p>Hot black or green tea</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="drink">
+                <img src="images/Starbucks Double Chocolate Chip Frappuccino.jpeg" alt="Frappuccino">
+                <h3>Frappuccino</h3>
+                <p>Cold blended coffee drink</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <!-- ================= DESSERTS ================= -->
+                <article class="menu-item-card" data-category="dessert">
+                <img src="images/snicker icecream.jpeg" alt="Snickers Ice Cream">
+                <h3>Snickers Ice Cream</h3>
+                <p>Ice cream with snickers flavor</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="dessert">
+                <img src="images/Classic Bananas Foster Recipe.jpeg" alt="Bananas Foster">
+                <h3>Bananas Foster</h3>
+                <p>Caramelized bananas dessert</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="dessert">
+                <img src="images/Chocolate Glazed Donuts by Master Baker - My Urban Treats.jpeg" alt="Donuts">
+                <h3>Donuts</h3>
+                <p>Glazed donuts</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="dessert">
+                <img src="images/Red Velvet Strawberry Cheesecake.jpeg" alt="Cheesecake">
+                <h3>Cheesecake</h3>
+                <p>Strawberry cheesecake</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+                <article class="menu-item-card" data-category="dessert">
+                <img src="images/Whipped cream (Chantilly cream).jpeg" alt="Whipped Cream">
+                <h3>Whipped Cream</h3>
+                <p>Light dessert topping</p>
+                <div class="price-add"><span>&#8358;650</span><button>+ Add</button></div>
+                </article>
+
+        </section>
+        
+    </main>
+    <button class="help-button">Help</button>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

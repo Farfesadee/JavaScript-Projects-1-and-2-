@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RestaurantPro - Staff Menu Management</title>
+  <link rel="stylesheet" href="staffmenu.css">
+  <script src="staffmenu.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Fresh Bite - Staff Dashboard</div>
+     
+    </nav>
+  </header>
+
+  <main>
+    <h2>Manage Menu Items</h2>
+
+    <!-- Add Item Form -->
+    <section class="add-item-section">
+      <h3>Add New Item</h3>
+      <form id="addItemForm">
+        <input type="text" id="itemName" placeholder="Item Name" required>
+        <input type="text" id="itemDesc" placeholder="Description" required>
+        <input type="number" id="itemPrice" placeholder="Price (₦)" required>
+        <select id="itemCategory" required>
+          <option value="food">Food</option>
+          <option value="drink">Drink</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <input type="text" id="itemImage" placeholder="Image Path (e.g. images/rice.jpeg)">
+        <button type="submit">+ Add Item</button>
+      </form>
+    </section>
+
+    <!-- Menu Items Table -->
+    <section class="menu-table-section">
+      <h3>All Menu Items</h3>
+      <table id="menuTable">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price (₦)</th>
+            <th>Category</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="menuBody">
+          <!-- Items from menu1.html will be injected here by JS -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+ <div>
+        <a href="menu1.html" class="back-button">⬅ Back to Menu</a>
+        <button class="logout-button">Logout</button>
+      </div>
+</html>

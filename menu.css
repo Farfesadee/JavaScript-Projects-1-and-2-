@@ -1,0 +1,48 @@
+* {
+    background-color: white;
+
+}
+
+#top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 15PX 30px;
+    box-shadow: 0 2PX 4PX rgba(0, 0, 0, 0.1);
+}
+
+.search {
+    margin-bottom: 20px;
+}
+.search input {
+    width: 100%;
+    padding: 12px 15px;
+      border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.available-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+.cards{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding-bottom: 15px; 
+}
